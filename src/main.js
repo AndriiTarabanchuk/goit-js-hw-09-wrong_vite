@@ -54,7 +54,7 @@ const { email, message } = formDom.elements;
 let formData = JSON.parse(localStorage.getItem(LOCAL_KEY)) || {};
 
 // очищення значень у полях ДОМ Form
-resetForm(formData);
+resetForm(formData, formDom);
 
 // слухач на зміну значень  email, message
 formDom.addEventListener('input', throttle(onInputData, 500));

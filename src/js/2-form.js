@@ -15,7 +15,7 @@
 // // очищення значень у полях ДОМ
 // resetForm();
 
-function resetForm(formData) {
+function resetForm(formData, formDom) {
   if (formDom) {
     email.value = formData.email || '';
     message.value = formData.message || '';
