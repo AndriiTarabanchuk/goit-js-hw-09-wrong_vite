@@ -32,7 +32,9 @@ body {
 }
 .gallery-image:hover {
   transform: scale(calc(376 / 360));
-  cursor: url('../../src/img/bxs_hand-down.png') 13 0, pointer;
+  /* cursor: url('../../src/img/bxs_hand-down.png') 13 0, pointer; */
+  cursor: pointer;
+
   transition: transform var(--animation-duration) var(--timing-function);
 }
 
